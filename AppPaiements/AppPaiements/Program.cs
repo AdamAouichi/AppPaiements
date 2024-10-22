@@ -13,6 +13,11 @@ internal class Program
         b.AfficherDetails();
         c.AfficherDetails();
 
+        Paypal d = new Paypal("adam.aouichi@gmail.com", 30000000, "compte principale");
+        Paypal e = new Paypal("simon.marcus@gmail.com", 20000000, "compte depargne");
+       
+        d.AfficherDetails();
+        e.AfficherDetails();
 
     }
 
